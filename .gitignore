@@ -1,0 +1,23 @@
+# Rohdaten – niemals auf GitHub!
+data/raw/
+data/processed/
+
+# Jupyter temporäre Dateien
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+venv/
+.env/
+
+# Sensible Konfiguration
+.env
+secrets.yaml
+credentials.json
+
+# Mac Systemdateien
+.DS_Store
